@@ -43,6 +43,11 @@ public class Cat {
         this.idade = 0;
     }
 
+    public String toString(){
+        return "nome: " + nome + "\npeso: " + peso + "\né arrisco: " + ehArrisco + "\ncor: " + cor + "\npeso: " + peso;
+    }
+
+
 
 
 
@@ -55,10 +60,17 @@ public class Cat {
         //Cat bibi = new Cat("Ruby", 3.5f, false, "furia da noite", 3);
         Cat bibi = new Cat("Ruby","pretinha");
 
-        pudim.comer();
-        pingado.cochilar();
-        paozinho.brincar();
-        bibi.comer("petisco");
+
+        System.out.println(bibi);
+
+        //System.out.println(bibi.toString());
+        //System.out.println(pudim.toString());
+        //System.out.println(paozinho.toString());
+
+        //pudim.comer();
+        //pingado.cochilar();
+        //paozinho.brincar();
+        //bibi.comer("petisco");
 
 
     }
